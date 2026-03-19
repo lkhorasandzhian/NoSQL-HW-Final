@@ -12,7 +12,7 @@ db.groups.createIndex({ group_id: 1 }, { unique: true });
 db.groups.createIndex({ program_id: 1 });
 
 // Students.
-db.students.createIndex({ student_id: 1 }, { unique: true });
+db.students.createIndex({ student_id: 1 });
 db.students.createIndex({ group_id: 1 });
 
 // Teachers.
@@ -31,7 +31,7 @@ db.courses.createIndex({ semester: 1 });
 db.courses.createIndex({ groups: 1 });
 
 // Grades.
-db.grades.createIndex({ grade_id: 1 }, { unique: true });
+db.grades.createIndex({ grade_id: 1 });
 db.grades.createIndex({ student_id: 1 });
 db.grades.createIndex({ course_id: 1 });
 db.grades.createIndex({ grade_type: 1 });
