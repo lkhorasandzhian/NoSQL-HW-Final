@@ -1,0 +1,2 @@
+{ "course_id": "COURSE2025-M2-DB", "subject_id": "DB301", "teacher_id": "T301", "semester": "2025-2026-1", "groups": ["БПИ218"] }
+{ "course_id": "COURSE2025-M1-ALG", "subject_id": "ALG101", "teacher_id": "T101", "semester": "2025-2026-1", "groups": ["БПИ218", "БПМИ221"] }
