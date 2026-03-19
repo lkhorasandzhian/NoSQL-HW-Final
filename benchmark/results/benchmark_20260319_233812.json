@@ -1,0 +1,24 @@
+{
+  "timestamp": "20260319_233812",
+  "total_tests": 3,
+  "results": [
+    {
+      "test_name": "bulk_insert_grades",
+      "operations": 10000,
+      "elapsed_seconds": 0.2273,
+      "throughput_ops_sec": 43991.26
+    },
+    {
+      "test_name": "read_grades_by_student",
+      "operations": 5000,
+      "elapsed_seconds": 2.7539,
+      "throughput_ops_sec": 1815.62
+    },
+    {
+      "test_name": "update_student_status",
+      "operations": 3000,
+      "elapsed_seconds": 0.1934,
+      "throughput_ops_sec": 15509.35
+    }
+  ]
+}
