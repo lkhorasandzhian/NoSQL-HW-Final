@@ -6,3 +6,6 @@
 
 # Shell
 *.sh text eol=lf
+
+# Игнорировать .js-файлы при статистике языка репозитория
+*.js linguist-detectable=false
